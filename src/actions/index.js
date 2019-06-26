@@ -12,14 +12,6 @@ export const FETCHING = 'FETCHING';
 export const SUCCESS = 'SUCCESS';
 export const FAILURE = 'FAILURE';
 
-// export const addTodo = (e, todoItem) => {
-//   e.preventDefault();
-//   return {
-//     type: ADD_TODO,
-//     payload: todoItem
-//   }
-// };
-
 const getPeople = () => dispatch => {
     //Trigger FETCHING when we make the request
     dispatch({type: FETCHING, payload: true});
